@@ -5,10 +5,14 @@ health<-read.csv("C:\Users\wonjun\Desktop\git\Colorectal_Cancer_Riskfactor_Anali
 ```{r}
 install.packages("car")
 ```
+
 ```{r}
 library(car)
 ```
 
+```{r}
+#change haha
+```
 
 ```{r}
 model <- glm(formula = survival~.,data = health)
